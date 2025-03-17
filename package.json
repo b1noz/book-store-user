@@ -22,7 +22,7 @@
     "react-redux": "^7.2.4",
     "react-responsive-carousel": "^3.2.18",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.3",
+    "react-scripts": "^5.0.1",
     "react-slideshow-image": "^3.4.7",
     "react-star-ratings": "^2.3.0",
     "react-toastify": "^7.0.4",
@@ -36,7 +36,7 @@
   },
   "scripts": {
     "start": "set PORT=3006 && react-scripts --openssl-legacy-provider start",
-    "build": "react-scripts build",
+    "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
